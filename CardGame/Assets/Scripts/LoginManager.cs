@@ -8,6 +8,6 @@ public class LoginManager : MonoBehaviour
     // 画面をタッチしたらログインする
     public void Login()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Menu");
     }
 }
