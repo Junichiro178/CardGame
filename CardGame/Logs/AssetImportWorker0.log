@@ -12,539 +12,591 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55682
+51989
 Successfully changed project path to: /Users/fujiyoshi_junichiro/Documents/GitHub/CardGame/CardGame
 /Users/fujiyoshi_junichiro/Documents/GitHub/CardGame/CardGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/fujiyoshi_junichiro/Documents/GitHub/CardGame/CardGame/Assets
 GfxDevice: creating device client; threaded=0
-2021-10-29 22:51:31.782 Unity[10482:196642] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-10-29 22:51:31.783 Unity[10482:196642] Metal devices available: 1
-2021-10-29 22:51:31.783 Unity[10482:196642] 0: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-10-29 22:51:31.783 Unity[10482:196642] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+2021-10-31 14:48:38.409 Unity[2326:103806] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-10-31 14:48:38.409 Unity[2326:103806] Metal devices available: 1
+2021-10-31 14:48:38.409 Unity[2326:103806] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-10-31 14:48:38.410 Unity[2326:103806] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56482
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56326
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004540 seconds.
+Registered in 0.004156 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.626 seconds
+- Completed reload, in  7.123 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004361 seconds.
+Registered in 0.006547 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.431 seconds
+- Completed reload, in  1.164 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.0 MB.
-System memory in use after: 152.9 MB.
+Unloading 1859 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.2 MB.
+System memory in use after: 156.2 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.415585 ms (FindLiveObjects: 0.208281 ms CreateObjectMapping: 0.064637 ms MarkObjects: 1.895712 ms  DeleteObjects: 0.245734 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_20.png
-  artifactKey: Guid(2ad616bc30603604aa8419ae773ddf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_20.png using Guid(2ad616bc30603604aa8419ae773ddf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8cd0bf594b156bda86fb75239b7bc6') in 1.660470 seconds
-  Import took 1.666451 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 2.751975 ms (FindLiveObjects: 0.306437 ms CreateObjectMapping: 0.081988 ms MarkObjects: 2.189371 ms  DeleteObjects: 0.172702 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_2.png
-  artifactKey: Guid(ada58a25932da984abd2b265a2622fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_2.png using Guid(ada58a25932da984abd2b265a2622fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae94fd0b7aeb3970a4d87ea61eb9859') in 0.053383 seconds
-  Import took 0.059789 seconds .
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(a52cf9be820064ba1964f8880f7220ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(a52cf9be820064ba1964f8880f7220ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b23c0b6412bfe39a46f4fbd8e8c8d1') in 0.013560 seconds
+  Import took 0.018920 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_1.png
-  artifactKey: Guid(6fa14e4f4481d14468c46b7b48e89e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_1.png using Guid(6fa14e4f4481d14468c46b7b48e89e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c497327be4e409c5e456028f4a0256') in 0.047131 seconds
-  Import took 0.053924 seconds .
+  Time since last request: 460.304413 seconds.
+  path: Assets/Resources/icons
+  artifactKey: Guid(70e5c8569fabd4416b3f13a52367b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/icons using Guid(70e5c8569fabd4416b3f13a52367b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd0f1d640db92091b61ff150cc146e3') in 0.014708 seconds
+  Import took 0.037822 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_24.png
-  artifactKey: Guid(3e02c156567407149948c2031b7db6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_24.png using Guid(3e02c156567407149948c2031b7db6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a83ef625cfe5f7ea432919ace179954') in 0.043128 seconds
-  Import took 0.047997 seconds .
+  Time since last request: 0.011172 seconds.
+  path: Assets/Resources/icons
+  artifactKey: Guid(70e5c8569fabd4416b3f13a52367b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/icons using Guid(70e5c8569fabd4416b3f13a52367b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd0f1d640db92091b61ff150cc146e3') in 0.002807 seconds
+  Import took 0.010072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_18.png
-  artifactKey: Guid(2a3549651b085b549b828d489de00291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_18.png using Guid(2a3549651b085b549b828d489de00291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5563a29aa8189ffe40dfe43dc47f3612') in 0.049199 seconds
-  Import took 0.055219 seconds .
+  Time since last request: 7.489923 seconds.
+  path: Assets/Resources/images
+  artifactKey: Guid(651cae074385d4d70bf664d206c07a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images using Guid(651cae074385d4d70bf664d206c07a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f879027dcf63098cdd1f62790288a62') in 0.003565 seconds
+  Import took 0.012758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_23.png
-  artifactKey: Guid(1e273e9fde20ba340b40345b0e0268fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_23.png using Guid(1e273e9fde20ba340b40345b0e0268fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c210557bbea18be52020716ea8124b6') in 0.043059 seconds
-  Import took 0.047556 seconds .
+  Time since last request: 28.204736 seconds.
+  path: Assets/Resources/images/Button
+  artifactKey: Guid(9dc3228a8825b4fb1a9777a25af0b564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button using Guid(9dc3228a8825b4fb1a9777a25af0b564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6d9b22365106661c01fed22f57c660') in 0.006097 seconds
+  Import took 0.034582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_8.png
-  artifactKey: Guid(b2f34fd25d4d0924285ddff4506c4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_8.png using Guid(b2f34fd25d4d0924285ddff4506c4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26bac1ba5a4a1caa3546e8fe9a555b8') in 0.041208 seconds
-  Import took 0.044891 seconds .
+  Time since last request: 0.816306 seconds.
+  path: Assets/Resources/images/Button/material
+  artifactKey: Guid(23aa3ba66c5484e5fadb07b1d8dc62dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material using Guid(23aa3ba66c5484e5fadb07b1d8dc62dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2e801df829503398e98a075031205b') in 0.004878 seconds
+  Import took 0.011979 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_4.png
-  artifactKey: Guid(077d95cfd4e94a14eb829bcd5b50e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_4.png using Guid(077d95cfd4e94a14eb829bcd5b50e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f014cbc6f78eefbefa38f4ed788abd63') in 0.037466 seconds
-  Import took 0.042034 seconds .
+  Time since last request: 0.884076 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸
+  artifactKey: Guid(f0b3ea4cf27a94c338ecfa39b11c4f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸 using Guid(f0b3ea4cf27a94c338ecfa39b11c4f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a8d95cb3ab604ad2edaa5a161e39c2') in 0.003447 seconds
+  Import took 0.009794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_13.png
-  artifactKey: Guid(602892ba8f186ae47abee13b3e7c2b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_13.png using Guid(602892ba8f186ae47abee13b3e7c2b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36520e7c578bbfd0820238b9b7846d71') in 0.035410 seconds
-  Import took 0.039195 seconds .
+  Time since last request: 0.111108 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_001.png
+  artifactKey: Guid(480eac2aa86674377babf11fdc0792f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_001.png using Guid(480eac2aa86674377babf11fdc0792f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9217ba2092c807c62104a98acb8aa0c') in 1.702528 seconds
+  Import took 1.708870 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_5.png
-  artifactKey: Guid(062df59bf4b4f1a488047002c6a16a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_5.png using Guid(062df59bf4b4f1a488047002c6a16a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d24a1dbd80a0dfe291a4be17ba378c') in 0.040556 seconds
-  Import took 0.044970 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_002.png
+  artifactKey: Guid(d9c13501025204e93b67a50973d6d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_002.png using Guid(d9c13501025204e93b67a50973d6d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f19c4a0d138c4daa736dc585832d7d') in 0.014973 seconds
+  Import took 0.020183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_9.png
-  artifactKey: Guid(28f46c03e0e63d34e9e9ed94b284d1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_9.png using Guid(28f46c03e0e63d34e9e9ed94b284d1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4a1ed3eda8b6e3f53caec8f517e078') in 0.043002 seconds
-  Import took 0.047546 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_002_hover.png
+  artifactKey: Guid(63375d3ded96c45798cfe88f374892ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_002_hover.png using Guid(63375d3ded96c45798cfe88f374892ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69496f32a74fd09cd2b111294d8c4c3a') in 0.019522 seconds
+  Import took 0.024566 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_11.png
-  artifactKey: Guid(68ea58fbac3b9f74dbffc2901d487889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_11.png using Guid(68ea58fbac3b9f74dbffc2901d487889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f71a0d58d892c340c265d2939f9fc8') in 0.044781 seconds
-  Import took 0.048755 seconds .
+  Time since last request: 0.000448 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_003_click.png
+  artifactKey: Guid(34541c0286ae1475da5e5a8dc5bf28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_003_click.png using Guid(34541c0286ae1475da5e5a8dc5bf28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8a37f5d67a85be3397db313085bf9c') in 0.024074 seconds
+  Import took 0.029049 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_17.png
-  artifactKey: Guid(acf0ee574a3f4694bbdd8f56acf0c495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_17.png using Guid(acf0ee574a3f4694bbdd8f56acf0c495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2810de289a8ad286adb9ba9394d60b1') in 0.044093 seconds
-  Import took 0.048786 seconds .
+  Time since last request: 0.000471 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_001_hover.png
+  artifactKey: Guid(a4f6f2448720e484d8f35d15c48f1fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_001_hover.png using Guid(a4f6f2448720e484d8f35d15c48f1fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42f3f9f07b1dfd323509f249a83d66b') in 0.029015 seconds
+  Import took 0.034925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_22.png
-  artifactKey: Guid(a11a056a105563c4abe7d418348085ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_22.png using Guid(a11a056a105563c4abe7d418348085ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ad02cff3642ee5a1060e39107b60af') in 0.098556 seconds
-  Import took 0.105614 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_005_click.png
+  artifactKey: Guid(953274299c9bf440eaf6a4892882adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_005_click.png using Guid(953274299c9bf440eaf6a4892882adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ed52070f9a6be2c11936034b831a59') in 0.022464 seconds
+  Import took 0.029668 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_21.png
-  artifactKey: Guid(136e188a26ea204448024784063cd079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_21.png using Guid(136e188a26ea204448024784063cd079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea43dd1d6fc8a04db5f2abbd1795fb') in 0.101614 seconds
-  Import took 0.108815 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_004_click.png
+  artifactKey: Guid(40c7f806e937a4a9692f0eb0a1f9eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_004_click.png using Guid(40c7f806e937a4a9692f0eb0a1f9eccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af9ec4c47daed35ed120b493e5ab23') in 0.027104 seconds
+  Import took 0.032594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_3.png
-  artifactKey: Guid(f94729153dca8a748838c06f5dad09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_3.png using Guid(f94729153dca8a748838c06f5dad09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a2b39e84a52ac06b8ef27ad4e8e85a') in 0.043537 seconds
-  Import took 0.049244 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_001_click.png
+  artifactKey: Guid(0572ae067b9154b16a895bb40c8dae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_001_click.png using Guid(0572ae067b9154b16a895bb40c8dae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19042671476d55a0e21b75b33e8230') in 0.030014 seconds
+  Import took 0.037453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_6.png
-  artifactKey: Guid(a8246741e1a913047851e9faf31afaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_6.png using Guid(a8246741e1a913047851e9faf31afaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3344824ce6ee78a8f2f04b348cd39cdc') in 0.037153 seconds
-  Import took 0.040910 seconds .
+  Time since last request: 0.000505 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_006_hover.png
+  artifactKey: Guid(4f526ce594e164cdfa2b8cd5bfa7cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_006_hover.png using Guid(4f526ce594e164cdfa2b8cd5bfa7cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87485ec5b6830e5e1b0a3cb11f7a7a12') in 0.016594 seconds
+  Import took 0.021797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_001_click.png
+  artifactKey: Guid(0572ae067b9154b16a895bb40c8dae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_001_click.png using Guid(0572ae067b9154b16a895bb40c8dae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19042671476d55a0e21b75b33e8230') in 0.018690 seconds
+  Import took 0.025354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_005.png
+  artifactKey: Guid(553c93bea75a3483db7c0ed1e31a774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_005.png using Guid(553c93bea75a3483db7c0ed1e31a774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96788e96b51af985e7d96c27129d0785') in 0.019270 seconds
+  Import took 0.023430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_006.png
+  artifactKey: Guid(3c1f0b9cd42114aa98825bba1196f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_006.png using Guid(3c1f0b9cd42114aa98825bba1196f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671c1bfc990e53d7aa7a85a345e02e3a') in 0.028304 seconds
+  Import took 0.035276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_004.png
+  artifactKey: Guid(18d9b2e7059a840c898372409ae2d366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_004.png using Guid(18d9b2e7059a840c898372409ae2d366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54761e7eeaaa850101ae6e8f5f56c7dc') in 0.033273 seconds
+  Import took 0.042675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_004_hover.png
+  artifactKey: Guid(d00ec9577ce3b41fb9510a9032552d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_004_hover.png using Guid(d00ec9577ce3b41fb9510a9032552d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa0de2c08b398f17d89db08765543bd') in 0.020873 seconds
+  Import took 0.027775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_003_hover.png
+  artifactKey: Guid(5a8f5015e7d0d404da870b3621437ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_003_hover.png using Guid(5a8f5015e7d0d404da870b3621437ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c31a1ceda2b376e5543f326abf4b13') in 0.024120 seconds
+  Import took 0.033460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_002_click.png
+  artifactKey: Guid(47a08c4c367ef43acb17230324b5ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_002_click.png using Guid(47a08c4c367ef43acb17230324b5ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb50ef95698574c91adb7ef988a4e61') in 0.027699 seconds
+  Import took 0.039702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_007_click.png
+  artifactKey: Guid(57cb237b6ea554017831e451deb5382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_007_click.png using Guid(57cb237b6ea554017831e451deb5382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226b595dbdb8407555b43e7859b45a09') in 0.016823 seconds
+  Import took 0.021902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_007_hover.png
+  artifactKey: Guid(a75c2822c03d1445c94f4268721cf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_007_hover.png using Guid(a75c2822c03d1445c94f4268721cf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fb3b55fbd28a5cbace81d725118585') in 0.029415 seconds
+  Import took 0.034516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_005_hover.png
+  artifactKey: Guid(172533c3687e542328feea2306fbf7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_005_hover.png using Guid(172533c3687e542328feea2306fbf7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7109f9668a45198dd4d57e263c36db') in 0.030736 seconds
+  Import took 0.038057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_007.png
+  artifactKey: Guid(fdfb5d853572c4125af26a08c06c2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_007.png using Guid(fdfb5d853572c4125af26a08c06c2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea699f2952ecc9ae96598046488fe3') in 0.030424 seconds
+  Import took 0.038983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_003.png
+  artifactKey: Guid(3ee7144d111fa4ef9b7136bf6c97818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_003.png using Guid(3ee7144d111fa4ef9b7136bf6c97818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6add451ebe52eaa180eb6bb0888a429') in 0.022223 seconds
+  Import took 0.030742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Resources/images/Button/material/01 角丸/r_006_click.png
+  artifactKey: Guid(f266279c06da148cfb24e70121f0e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/01 角丸/r_006_click.png using Guid(f266279c06da148cfb24e70121f0e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0e11e74e9d75a35d7c0476d3671dcc') in 0.032020 seconds
+  Import took 0.041741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.724535 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形
+  artifactKey: Guid(5f7cd75a33a794404a61d787afa54418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形 using Guid(5f7cd75a33a794404a61d787afa54418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da2d2d5bcb30e538c0dc55f3250bf57') in 0.003128 seconds
+  Import took 0.008708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091795 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_001.png
+  artifactKey: Guid(b57a4dc015f7b46488ec7f574af5988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_001.png using Guid(b57a4dc015f7b46488ec7f574af5988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad43e8d17e170154cf80ea8a9178d8e') in 0.014300 seconds
+  Import took 0.017605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_002_click.png
+  artifactKey: Guid(f8d0055a7235f4164819b55d5b57fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_002_click.png using Guid(f8d0055a7235f4164819b55d5b57fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6ee96222b369f08ca6790a7fa6f0e3') in 0.012604 seconds
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_003_click.png
+  artifactKey: Guid(c0155238f7a2d459ba4cac79451226c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_003_click.png using Guid(c0155238f7a2d459ba4cac79451226c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef32c6d0209fd43f351e5347d8d969a5') in 0.023123 seconds
+  Import took 0.027051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_006_hover.png
+  artifactKey: Guid(f31bf3ef3d0db4241bdc53773147d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_006_hover.png using Guid(f31bf3ef3d0db4241bdc53773147d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1252d007f12164cab2bdd7e3d6a8477') in 0.017586 seconds
+  Import took 0.022599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_007.png
+  artifactKey: Guid(f1a5aa237dbc64372bbdbad919d9980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_007.png using Guid(f1a5aa237dbc64372bbdbad919d9980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b2cb6c2370387e0dee28cd942ab634') in 0.020656 seconds
+  Import took 0.024867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_003.png
+  artifactKey: Guid(7b725dce970384ef5b3fb96f2156a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_003.png using Guid(7b725dce970384ef5b3fb96f2156a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cfc83e601b532aba46cbfe3a88a193') in 0.015611 seconds
+  Import took 0.021073 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000371 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_16.png
-  artifactKey: Guid(417884ea02f5fb14fa6fa65c680ea543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_16.png using Guid(417884ea02f5fb14fa6fa65c680ea543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddc85d40e3ac54dc52a1dea810423f4') in 0.040200 seconds
-  Import took 0.045026 seconds .
+  path: Assets/Resources/images/Button/material/02 長方形/s_002.png
+  artifactKey: Guid(bc9c828ac5a33417e9acb39aa627057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_002.png using Guid(bc9c828ac5a33417e9acb39aa627057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689f77d14ac23ed65a0e49b4f6a0d422') in 0.022422 seconds
+  Import took 0.027025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_19.png
-  artifactKey: Guid(d70f5bec209651f42bc7f87e245a5567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_19.png using Guid(d70f5bec209651f42bc7f87e245a5567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a9a2065e989db6af8a6ab45806e4d2') in 0.044778 seconds
-  Import took 0.051466 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_004_hover.png
+  artifactKey: Guid(86b338edf629948e7bb6cc5926d88d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_004_hover.png using Guid(86b338edf629948e7bb6cc5926d88d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc5390723ee98e3873fd5a5769707c1') in 0.019000 seconds
+  Import took 0.025237 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_15.png
-  artifactKey: Guid(c71dcd741c22b024c8e0d67b94d24f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_15.png using Guid(c71dcd741c22b024c8e0d67b94d24f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ea00492ec3cf00bdb564347e0f192f') in 0.063387 seconds
-  Import took 0.069858 seconds .
+  Time since last request: 0.000537 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_002_hover.png
+  artifactKey: Guid(3c8ae331683db4811a5cd47f5a6f7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_002_hover.png using Guid(3c8ae331683db4811a5cd47f5a6f7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975ce33dd1b952da194d60a9cffbf70c') in 0.017651 seconds
+  Import took 0.022810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_14.png
-  artifactKey: Guid(1c63de463ecc17e43b7c772017ca4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_14.png using Guid(1c63de463ecc17e43b7c772017ca4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48265e973e7ae4426289fb642560a55') in 0.052982 seconds
-  Import took 0.059308 seconds .
+  Time since last request: 0.000435 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_006_click.png
+  artifactKey: Guid(be627a152f0734aca912d8888c570408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_006_click.png using Guid(be627a152f0734aca912d8888c570408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258cda78aaa98e0e5f89849161942e02') in 0.017236 seconds
+  Import took 0.023911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_12.png
-  artifactKey: Guid(727df78b05622864a8dabbe258650774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_12.png using Guid(727df78b05622864a8dabbe258650774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9cafaf1105e0e6e6ad0d8e7a8d7696') in 0.041710 seconds
-  Import took 0.046407 seconds .
+  Time since last request: 0.000500 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_004.png
+  artifactKey: Guid(563810b6f55ec43e4a23a57b9f6bfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_004.png using Guid(563810b6f55ec43e4a23a57b9f6bfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391bcc9acdee652d796cfcfecb0aec17') in 0.015426 seconds
+  Import took 0.020950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_10.png
-  artifactKey: Guid(80b83ab1a187e904fa92d9c0e33c1e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_10.png using Guid(80b83ab1a187e904fa92d9c0e33c1e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a465837c426fbe90d85e38baa485e') in 0.042080 seconds
-  Import took 0.045905 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_001_click.png
+  artifactKey: Guid(aa4316fa434424a0bb38e74218daa8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_001_click.png using Guid(aa4316fa434424a0bb38e74218daa8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588d85e3dced6f894efb0885fa79760b') in 0.018273 seconds
+  Import took 0.024831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Forest road BG/Forest road Background/PNG/background_layer_7.png
-  artifactKey: Guid(d6e28535707065a45b0d3ede9c5694f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest road BG/Forest road Background/PNG/background_layer_7.png using Guid(d6e28535707065a45b0d3ede9c5694f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7570d5a9fd7f9d4926fe82fb9c4dc8f7') in 0.045838 seconds
-  Import took 0.051127 seconds .
+  Time since last request: 0.000632 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_001_hover.png
+  artifactKey: Guid(25c2256fcb0894b6b8f65083696b1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_001_hover.png using Guid(25c2256fcb0894b6b8f65083696b1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c04f6890383906f101f4b8b757fedf5') in 0.017842 seconds
+  Import took 0.023757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_005_hover.png
+  artifactKey: Guid(3f183eda5dee54a91a79f1f7ec12aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_005_hover.png using Guid(3f183eda5dee54a91a79f1f7ec12aa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582af8ff867b4de4152f6659efd5e730') in 0.015581 seconds
+  Import took 0.019981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_004_click.png
+  artifactKey: Guid(0c42a98b8544d4730a7f6dea688aa681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_004_click.png using Guid(0c42a98b8544d4730a7f6dea688aa681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd188bd20ddbdccc021d38275b198d0') in 0.022987 seconds
+  Import took 0.029197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_006.png
+  artifactKey: Guid(9e89a4958cd0f4fa5a2a60973f7fda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_006.png using Guid(9e89a4958cd0f4fa5a2a60973f7fda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1ab97f35fe42d88916a2bf977a78ff') in 0.018666 seconds
+  Import took 0.021820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_003_hover.png
+  artifactKey: Guid(9a0229afbc10b4583b5923684d36fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_003_hover.png using Guid(9a0229afbc10b4583b5923684d36fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7868105574b365e0805fc7568201ef1') in 0.017815 seconds
+  Import took 0.021975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_005.png
+  artifactKey: Guid(f0f6b9df06edb4dd8852076904c27400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_005.png using Guid(f0f6b9df06edb4dd8852076904c27400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bbe2d06400cc27dd4bd43f685a77e0') in 0.017461 seconds
+  Import took 0.023741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_005_click.png
+  artifactKey: Guid(2250a61ee47eb4a2189193e895e8d005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_005_click.png using Guid(2250a61ee47eb4a2189193e895e8d005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf8d09a17d33e794d3853a9606fc712') in 0.018774 seconds
+  Import took 0.024649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933593 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_007_click.png
+  artifactKey: Guid(1cb115957c05a407fb3ae2669ac7fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_007_click.png using Guid(1cb115957c05a407fb3ae2669ac7fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f10f96c018b3645d678657436fd485') in 0.021064 seconds
+  Import took 0.026629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Resources/images/Button/material/02 長方形/s_007_hover.png
+  artifactKey: Guid(b2efcca799d024742808afec08c8562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/02 長方形/s_007_hover.png using Guid(b2efcca799d024742808afec08c8562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edc6eaeec63c6227f6d4111fe20deea') in 0.014748 seconds
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.545648 seconds.
+  path: Assets/Resources/images/Button/material/03 おまけ
+  artifactKey: Guid(d8dbc00b878094b08968a02aaa51e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/03 おまけ using Guid(d8dbc00b878094b08968a02aaa51e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768fd5e1276ebaf60a868a9b2ccae9b') in 0.003101 seconds
+  Import took 0.008252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081380 seconds.
+  path: Assets/Resources/images/Button/material/03 おまけ/frame.png
+  artifactKey: Guid(a66fc21e5fb434c038cdbbf597b6c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/images/Button/material/03 おまけ/frame.png using Guid(a66fc21e5fb434c038cdbbf597b6c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ade2cefc3f021b861b343a2d056a3a') in 0.012875 seconds
+  Import took 0.017279 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002379 seconds.
+Registered in 0.006467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.176 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.0 MB.
-System memory in use after: 163.4 MB.
+Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2296.
-Total: 2.625724 ms (FindLiveObjects: 0.195080 ms CreateObjectMapping: 0.087516 ms MarkObjects: 1.957284 ms  DeleteObjects: 0.384439 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 293.906804 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '60598ddc20286cd98a033a2141c09b2a') in 1.055085 seconds
-  Import took 1.086723 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 4.358536 ms (FindLiveObjects: 0.458060 ms CreateObjectMapping: 0.139776 ms MarkObjects: 3.552716 ms  DeleteObjects: 0.205974 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.472817 seconds.
-  path: Assets/TextMesh Pro/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
-  artifactKey: Guid(e258d0715a9cb41939843f0b63fd5bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(e258d0715a9cb41939843f0b63fd5bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1056a9ed0551304e88bef1b3a7de9ce') in 0.010104 seconds
-  Import took 0.017832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/TextMesh Pro/Resources/Color Gradient Presets/Gold.asset
-  artifactKey: Guid(8de982b6073e4449fa864d253ad9f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Gold.asset using Guid(8de982b6073e4449fa864d253ad9f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209c52d99cc621146aa83b7028da3cf') in 0.002849 seconds
-  Import took 0.007946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/TextMesh Pro/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
-  artifactKey: Guid(185dc2f71132542a1b07e9cabd318f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset using Guid(185dc2f71132542a1b07e9cabd318f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925d37cc3b8e94fbc45bfa90255f00f') in 0.003771 seconds
-  Import took 0.007964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/TextMesh Pro/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
-  artifactKey: Guid(499cd06fe8b2f47e9bc15cf4119ee131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(499cd06fe8b2f47e9bc15cf4119ee131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cde465001e34d8c084a06271a8fdf1') in 0.002920 seconds
-  Import took 0.007562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
+  Time since last request: 436.807267 seconds.
   path: Assets/TextMesh Pro/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
   artifactKey: Guid(7e9be713208fa40c5963eb2fbb963f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(7e9be713208fa40c5963eb2fbb963f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29de64b24e1bcce1e8b20f0c9d2d5f9c') in 0.002679 seconds
-  Import took 0.006956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 155.056493 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '8a91cd493e1d333df46f1bccee82721e') in 0.075047 seconds
-  Import took 0.080381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.829925 seconds.
-  path: Assets/Scripts/LoginManager.cs
-  artifactKey: Guid(69cd70dacecd74c728bb5f1113ce09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginManager.cs using Guid(69cd70dacecd74c728bb5f1113ce09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3e3570d95db660d32a0064e0fefbc') in 0.454461 seconds
-  Import took 0.458592 seconds .
+Start importing Assets/TextMesh Pro/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(7e9be713208fa40c5963eb2fbb963f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bb1ebb406b83c171b945af9dbd7a3e') in 1.314329 seconds
+  Import took 1.320669 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001583 seconds.
+Registered in 0.000936 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.607 seconds
+- Completed reload, in  1.177 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.7 MB.
-System memory in use after: 173.2 MB.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.8 MB.
+System memory in use after: 168.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2301.
-Total: 3.169316 ms (FindLiveObjects: 0.295661 ms CreateObjectMapping: 0.081784 ms MarkObjects: 2.258297 ms  DeleteObjects: 0.531629 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 2.341842 ms (FindLiveObjects: 0.286528 ms CreateObjectMapping: 0.085844 ms MarkObjects: 1.847413 ms  DeleteObjects: 0.121032 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001864 seconds.
+Registered in 0.001620 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.1 MB.
-System memory in use after: 173.6 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2304.
-Total: 2.401019 ms (FindLiveObjects: 0.306907 ms CreateObjectMapping: 0.097632 ms MarkObjects: 1.599571 ms  DeleteObjects: 0.395599 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.915195 seconds.
-  path: Assets/Scripts/LoginManager.cs
-  artifactKey: Guid(69cd70dacecd74c728bb5f1113ce09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginManager.cs using Guid(69cd70dacecd74c728bb5f1113ce09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b092deedc5a95bba212b41eec80968f1') in 0.014144 seconds
-  Import took 0.017956 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.5 MB.
-System memory in use after: 173.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 2.835420 ms (FindLiveObjects: 0.199324 ms CreateObjectMapping: 0.072408 ms MarkObjects: 2.071382 ms  DeleteObjects: 0.488975 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.9 MB.
-System memory in use after: 174.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 2.459663 ms (FindLiveObjects: 0.308080 ms CreateObjectMapping: 0.071546 ms MarkObjects: 1.635592 ms  DeleteObjects: 0.442985 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.44 ms, found 2 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.2 MB.
-System memory in use after: 138.6 MB.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.3 MB.
+System memory in use after: 169.3 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 12.652287 ms (FindLiveObjects: 0.833365 ms CreateObjectMapping: 0.079192 ms MarkObjects: 11.291041 ms  DeleteObjects: 0.446875 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 24.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.0 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 36.255088 ms (FindLiveObjects: 2.457892 ms CreateObjectMapping: 0.180493 ms MarkObjects: 32.860264 ms  DeleteObjects: 0.752994 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 139.3 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 19.320052 ms (FindLiveObjects: 0.910032 ms CreateObjectMapping: 0.074764 ms MarkObjects: 17.063062 ms  DeleteObjects: 1.270220 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 139.6 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 26.210491 ms (FindLiveObjects: 1.064171 ms CreateObjectMapping: 0.077218 ms MarkObjects: 24.426148 ms  DeleteObjects: 0.640926 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 2.110832 ms (FindLiveObjects: 0.259605 ms CreateObjectMapping: 0.065176 ms MarkObjects: 1.676700 ms  DeleteObjects: 0.107961 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003469 seconds.
+Registered in 0.000908 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.989 seconds
+- Completed reload, in  1.074 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.7 MB.
-System memory in use after: 176.1 MB.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.6 MB.
+System memory in use after: 169.6 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 6.066464 ms (FindLiveObjects: 0.482304 ms CreateObjectMapping: 0.124070 ms MarkObjects: 4.247333 ms  DeleteObjects: 1.209642 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.7 MB.
-System memory in use after: 140.2 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 3.093851 ms (FindLiveObjects: 0.306199 ms CreateObjectMapping: 0.094252 ms MarkObjects: 2.122069 ms  DeleteObjects: 0.569626 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 140.4 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 7.962775 ms (FindLiveObjects: 0.278822 ms CreateObjectMapping: 0.082346 ms MarkObjects: 7.163729 ms  DeleteObjects: 0.436201 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.470361 ms (FindLiveObjects: 0.290068 ms CreateObjectMapping: 0.078165 ms MarkObjects: 1.972955 ms  DeleteObjects: 0.127502 ms)
 
