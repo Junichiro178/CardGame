@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
-    // ゲームを開始する
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("Game");
-    }
 
+    //　ゲーム終了
     public void QuitGame()
     {
         Debug.Log("アプリ終了");
         Application.Quit();
+    }
+
+    // バトル降参
+    public void SurrenderBattle()
+    {
+        Debug.Log("降参");
+        SceneManager.LoadScene("Menu");
     }
 }

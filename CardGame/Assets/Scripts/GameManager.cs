@@ -48,11 +48,8 @@ public class GameManager : MonoBehaviour
     //ゲーム開始
     void StartGame()
     {
+        // デッキを生成
         deckManager.InitDeck();
-
-        //player.Init(new List<int> { 6, 2, 3, 4, 5 });
-        //enemy.Init(new List<int> { 7, 9, 2, 2, 1 });
-
 
         // 時間の設定
         timeCount = 20;
