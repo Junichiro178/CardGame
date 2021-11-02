@@ -24,7 +24,7 @@ bz.kitm.fj@gmail.com
 - https://apps.apple.com/jp/app/id1592233837
 
 ## Android
-- 
+- https://play.google.com/store/apps/details?id=com.JunichiroFujiyoshi.TheCardGame
 
 ## WebGL
 - https://d14i4uzwvhqn11.cloudfront.net/
