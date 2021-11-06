@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public GamePlayerManager player;
     public GamePlayerManager enemy;
+    public DeckManger deckManager;
 
     [SerializeField] AI enemyAI;
     [SerializeField] UIManager uiManager;
@@ -20,7 +21,8 @@ public class GameManager : MonoBehaviour
     public Transform playerHero;
     public Transform enemyHero;
 
-
+    // ステージの番号
+    public int stageNumber;
 
     //　プレイヤーのターンかどうか
     public bool isPlayerTurn;
@@ -46,9 +48,8 @@ public class GameManager : MonoBehaviour
     //ゲーム開始
     void StartGame()
     {
-        player.Init(new List<int> { 6, 2, 3, 4, 5 });
-        enemy.Init(new List<int> { 7, 9, 2, 2, 1 });
-
+        // デッキを生成
+        deckManager.InitDeck();
 
         // 時間の設定
         timeCount = 20;
