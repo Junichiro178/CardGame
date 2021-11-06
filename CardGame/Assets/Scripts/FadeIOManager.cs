@@ -28,7 +28,7 @@ public class FadeIOManager : MonoBehaviour
     public void FadeOut()
     {
         canvasGroup.blocksRaycasts = true;
-        canvasGroup.DOFade(1, 1f)
+        canvasGroup.DOFade(1, 0.75f)
             .OnComplete(() => canvasGroup.blocksRaycasts = false);
     }
 
@@ -36,7 +36,7 @@ public class FadeIOManager : MonoBehaviour
     public void FadeIn()
     {
         canvasGroup.blocksRaycasts = true;
-        canvasGroup.DOFade(0, 1f)
+        canvasGroup.DOFade(0, 0.75f)
             .OnComplete(() => canvasGroup.blocksRaycasts = false);
     }
 
@@ -44,7 +44,7 @@ public class FadeIOManager : MonoBehaviour
     public void FadeOutToIn(TweenCallback action)
     {
         canvasGroup.blocksRaycasts = true;
-        canvasGroup.DOFade(1, 1f)
+        canvasGroup.DOFade(1, 0.75f)
             .OnComplete(() =>
             {
                 action();
