@@ -6,7 +6,13 @@ using UnityEngine.SceneManagement;
 public class LoginManager : MonoBehaviour
 {
     // 画面をタッチしたらログインする
-    public void Login()
+    // コールバック関数で、FadeIOManagerにつなげる
+    public void CallBackLogin()
+    {
+        FadeIOManager.instance.FadeOutToIn(() => Login());
+    }
+
+    void Login()
     {
         SceneManager.LoadScene("Menu");
     }
