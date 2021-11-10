@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject canvas;
+
     public GamePlayerManager player;
     public GamePlayerManager enemy;
     public DeckManger deckManager;
@@ -20,6 +22,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] CardController cardPrefab;
     public Transform playerHero;
     public Transform enemyHero;
+
+    public GameObject enemyTurnDisplay;
+    public GameObject playerTurnDisplay;
 
     // ステージの番号
     public int stageNumber;
@@ -138,11 +143,13 @@ public class GameManager : MonoBehaviour
         StartCoroutine(CountDown());
         if (isPlayerTurn)
         {
-            PlayerTurn();
+            StartCoroutine(PlayerTurn());
+            StartCoroutine(DisplayTurnController(playerTurnDisplay));
         }
         else
         {
             StartCoroutine(enemyAI.EnemyTurn());
+            StartCoroutine(DisplayTurnController(enemyTurnDisplay));
         }
     }
 
@@ -224,9 +231,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //プレイヤーのターンの処理
-    void PlayerTurn()
+    // ターンのはじめにそのターンがどのプレイヤーのターンかを表示する
+    IEnumerator DisplayTurnController(GameObject turnController)
     {
+        GameObject instance = (GameObject)Instantiate(turnController,
+                                      new Vector3(0.0f, 0.0f, 0.0f),
+                                      Quaternion.identity);
+        instance.transform.SetParent(canvas.transform, false);
+
+        yield return new WaitForSeconds(2.0f);
+
+        Destroy(instance);
+    }
+
+    //プレイヤーのターンの処理
+    IEnumerator PlayerTurn()
+    {
+        yield return new WaitForSeconds(2.0f);
+
         Debug.Log("プレイヤーのターン");
 
         // ターンエンドボタンをクリック可能にする

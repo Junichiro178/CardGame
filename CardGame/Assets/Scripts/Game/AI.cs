@@ -16,11 +16,12 @@ public class AI : MonoBehaviour
     //敵ターンの処理
     public IEnumerator EnemyTurn()
     {
-
-        Debug.Log("敵のターン");
-
         // ターンエンドボタンはクリックできない
         uiManager.CannotClickTheButton();
+
+        yield return new WaitForSeconds(2.0f);
+
+        Debug.Log("敵のターン");     
 
         // 敵のカードを攻撃可能にする
         CardController[] enemyFieldCardList = gameManager.enemyFieldTransform.GetComponentsInChildren<CardController>();
