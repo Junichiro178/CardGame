@@ -231,6 +231,32 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 徐々に大きくする
+    IEnumerator ScaleUp(GameObject instance)
+    {
+        float scale = 0;
+
+        for (float i = 0; i < 0.05; i += 0.01f)
+        {
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+            scale += 0.2f;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
+
+    // 徐々に小さくする
+    IEnumerator ScaleDown(GameObject instance)
+    {
+        float scale = 1;
+
+        for (float i = 0; i < 0.05; i += 0.01f)
+        {
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+            scale -= 0.2f;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
+
     // ターンのはじめにそのターンがどのプレイヤーのターンかを表示する
     IEnumerator DisplayTurnController(GameObject turnController)
     {
@@ -239,7 +265,13 @@ public class GameManager : MonoBehaviour
                                       Quaternion.identity);
         instance.transform.SetParent(canvas.transform, false);
 
+        StartCoroutine(ScaleUp(instance));
+
         yield return new WaitForSeconds(2.0f);
+
+        StartCoroutine(ScaleDown(instance));
+
+        yield return new WaitForSeconds(0.05f);
 
         Destroy(instance);
     }
@@ -247,7 +279,7 @@ public class GameManager : MonoBehaviour
     //プレイヤーのターンの処理
     IEnumerator PlayerTurn()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.1f);
 
         Debug.Log("プレイヤーのターン");
 
