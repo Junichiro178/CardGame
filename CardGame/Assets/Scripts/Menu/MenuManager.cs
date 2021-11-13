@@ -19,4 +19,25 @@ public class MenuManager : MonoBehaviour
         Debug.Log("降参");
         SceneManager.LoadScene("Menu");
     }
+
+    // 各種SE
+    public void OnStageSelectButton()
+    {
+        SoundManager.instance.PlaySE(1);
+    }
+
+    public void OnQuitButton()
+    {
+        SoundManager.instance.PlaySE(1);
+    }
+
+    public void OnBackButton()
+    {
+        SoundManager.instance.PlaySE(2);
+    }
+
+    public void OnChoseStageButton()
+    {
+        SoundManager.instance.PlaySE(3);
+    }
 }

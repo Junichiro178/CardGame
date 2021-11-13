@@ -10,12 +10,13 @@ public class SceneTransitionManager : MonoBehaviour
     // コールバック関数で、FadeIOManagerにつなげる
     public void CallBackLoadAnothrScene(string sceneName)
     {
-        FadeIOManager.instance.FadeOutToIn(() => LoadAnothrScene(sceneName));
+        FadeIOManager.instance.FadeOutToIn(() => LoadAnotherScene(sceneName));
     }
 
     // シーンの切り替えはここで行う
-    public void LoadAnothrScene(string sceneName)
+    public void LoadAnotherScene(string sceneName)
     {
+        SoundManager.instance.PlayBGM(sceneName);
         SceneManager.LoadScene(sceneName);
     }
 }

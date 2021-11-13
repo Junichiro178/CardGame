@@ -267,11 +267,13 @@ public class GameManager : MonoBehaviour
 
         StartCoroutine(ScaleUp(instance));
 
+        SoundManager.instance.PlaySE(6);
+
         yield return new WaitForSeconds(2.0f);
 
         StartCoroutine(ScaleDown(instance));
 
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.1f);
 
         Destroy(instance);
     }
